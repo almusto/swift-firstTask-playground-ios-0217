@@ -16,6 +16,8 @@
 */
 // write your code here
 
+var balance : Double = 0
+
 
 
 
@@ -24,6 +26,7 @@
 */
 // write your code here
 
+let name = "Bella"
 
 
 
@@ -31,6 +34,8 @@
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
+
+print("\(name)")
 
 
 
@@ -40,6 +45,9 @@
 */
 // write your code here
 
+print("I just got a new puppy named \(name) and she is awesome!")
+
+
 
 
 
@@ -48,6 +56,7 @@
 */
 // write your code here
 
+print("I have $\(balance) in my bank account.")
 
 
 
@@ -56,13 +65,18 @@
 */
 // write your code here
 
+balance += 100.00
+
+print("I now have $\(balance).")
+
+
 
 
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
 */
-// write your code here
+// write your code here no becuase it's a constant.
 
 
 /*:
